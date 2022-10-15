@@ -21,8 +21,8 @@ export function Main() {
                 Crie tarefas e organize seus itens a fazer</p>
             </div> */}
             <div className={styles.taskBox}>
-                <Task/>
-                <Task/>
+                <Task id='estudar' content='Estudar React' />
+                <Task id='prova' content='Prova' />
             </div>
         </main>
     )
