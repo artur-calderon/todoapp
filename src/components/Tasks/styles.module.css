@@ -1,0 +1,47 @@
+.taskContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 46rem;
+    /* height: 4.5rem; */
+    background-color: var(--gray-500);
+    padding: 1rem;
+
+    border: 1px solid var(--gray-500);
+    border-radius: 8px;
+}
+
+.taskContainer p {
+    font-size: .875rem;
+    color: var(--gray-100);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.taskContainer svg{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: .1rem;
+    border-radius: 4px;
+    color: var(--gray-300);
+}
+
+.taskContainer svg:hover{
+    cursor: pointer;
+    color: var(--danger);
+    padding: .1rem;
+    border-radius: 4px;
+    background-color: var(--gray-400);
+}
+
+.taskContainer .checkBox{
+    display: none;
+}
+.taskContainer .checkBox + label{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 100%;
+    border: 1px solid var(--blue);
+}
