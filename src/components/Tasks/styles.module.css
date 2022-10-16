@@ -3,8 +3,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-
-  width: 46rem;
+  width: 100%;
+  max-width: 46rem;
   /* height: 4.5rem; */
   background-color: var(--gray-500);
   padding: 1rem;
@@ -79,3 +79,4 @@
   cursor: pointer;
   color: var(--gray-100);
 }
+
